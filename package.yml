@@ -2,7 +2,7 @@
 
 # Jira Support Template Package
 matches:
-  - trigger: ":jira"  # Schlüsselwort zum Auslösen des Textes
+  - trigger: ":csc"  # Schlüsselwort zum Auslösen des Textes
     replace: |
       Kunde/Debitorname:
       →
@@ -55,4 +55,25 @@ matches:
       
       to do CSC:
       → Angebot erstellen/Prüfung auf Gewährleistung o.ä.
-
+  # Zweiter Trigger für den Abschlussbericht-Text
+  - trigger: ":finish"  # Schlüsselwort zum Auslösen des Abschlussberichts
+    replace: |
+      Problem: 
+      
+      Kurze Problembeschreibung:
+      
+      Tätigkeit:
+      
+      
+      Lösung:
+      
+      
+      Kategorie:
+    # Zweiter Trigger für den Abschlussbericht-Text
+  - trigger: ":create"  # Schlüsselwort zum Auslösen des Abschlussberichts
+    replace: |
+      Debitor UND Kundenname:
+      Ansprechpartner: 
+      Email/Telefonnummer: 
+      RCX/KLC/HW: 
+      Problembeschreibung:
