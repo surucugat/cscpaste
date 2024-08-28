@@ -1,1 +1,6 @@
-
+name: "csc-paste"
+title: "csc-paste"
+description: csc-ticket vorlage paste
+version: 0.1.0
+author: Ibrahim Sürücü
+tags: ["csc-paste". "ticket"]
