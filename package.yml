@@ -1,1 +1,58 @@
+# ~/.config/espanso/match/jira-support.yml
+
+# Jira Support Template Package
+matches:
+  - trigger: ":jira"  # Schlüsselwort zum Auslösen des Textes
+    replace: |
+      Kunde/Debitorname:
+      →
+      
+      Kontaktperson, Name:
+      →
+      
+      Tel.:
+      →
+      
+      E-Mail:
+      →
+      
+      Kontaktperson vor Ort: (bei Technikereinsatz)
+      →
+      
+      Tel.:
+      →
+      
+      Opt. E-Mail:
+      →
+      
+      Einsatzort: (da manchmal abweichend vom Auftraggeber)
+      →
+      
+      Betroffenes Produkt/e:
+      →
+      
+      Seriennummer:
+      →
+      
+      Support-Ticket:
+      → (Link des erledigten Support-Tickets einfügen)
+      
+      Fehlerbeschreibung:
+      →
+      
+      Aufgabenbeschreibung für Technikereinsatz:
+      →
+      
+      Erforderliches Ersatzprodukt, Ersatzteil mit Angabe Artikelname, Artikelnummer, Stückzahl:
+      →
+      
+      Gerätekonfiguration, Besonderheiten:
+      →
+      
+      Dienstleistung:
+      →z.B. Technikereinsatz
+      →z.B. Supportleistung ( Remote Schulung, Relaxx Upgrade u.ä.) mit Angabe der zu erwartenden Arbeitszeit für Angebote)
+      
+      to do CSC:
+      → Angebot erstellen/Prüfung auf Gewährleistung o.ä.
 
